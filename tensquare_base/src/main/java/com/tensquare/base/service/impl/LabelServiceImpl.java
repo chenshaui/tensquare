@@ -1,11 +1,12 @@
-package service.impl;
+package com.tensquare.base.service.impl;
 
-import dao.LabelDao;
+
+import com.tensquare.base.dao.LabelDao;
+import com.tensquare.base.pojo.Label;
+import com.tensquare.base.service.ILabelService;
+import com.tensquare.base.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pojo.Label;
-import service.ILabelService;
-import utils.IdWorker;
 
 import java.util.List;
 

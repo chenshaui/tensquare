@@ -1,4 +1,4 @@
-package controller;
+package com.tensquare.base.controller;
 
 import entity.Result;
 import entity.StatusCode;

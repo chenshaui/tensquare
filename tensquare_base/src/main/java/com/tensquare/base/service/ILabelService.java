@@ -1,6 +1,8 @@
-package service;
+package com.tensquare.base.service;
 
-import pojo.Label;
+
+
+import com.tensquare.base.pojo.Label;
 
 import java.util.List;
 

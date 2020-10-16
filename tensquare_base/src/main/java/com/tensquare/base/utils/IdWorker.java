@@ -1,4 +1,4 @@
-package utils;
+package com.tensquare.base.utils;
 
 import org.springframework.stereotype.Service;
 

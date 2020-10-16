@@ -1,7 +1,10 @@
+package com.tensquare.base;
+
+import com.tensquare.base.utils.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import utils.IdWorker;
+
 
 /**
  * 启动类

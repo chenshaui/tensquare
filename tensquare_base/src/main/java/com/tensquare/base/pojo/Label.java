@@ -1,4 +1,4 @@
-package pojo;
+package com.tensquare.base.pojo;
 
 import lombok.Data;
 import lombok.ToString;
