@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: tensquare‐base #指定服务名
+  datasource:
+    driver-class-name:
+    url:
+    username:
+    password:
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
