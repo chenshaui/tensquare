@@ -3,8 +3,10 @@ package com.tensquare.base.service;
 
 
 import com.tensquare.base.pojo.Label;
+import org.springframework.data.domain.Page;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 标签逻辑处理service
@@ -41,4 +43,22 @@ public interface ILabelService {
      * @param id id
      */
     void deleteById(String id);
+
+    /**
+     * 条件查询
+     * @param searchMap 条件map
+     * @return java.util.List<com.tensquare.base.pojo.Label>
+     * @throws Exception
+     */
+    List<Label> findSearch(Map searchMap);
+
+
+    /**
+     * 分页查询
+     * @param searchMap 条件参数
+     * @param page 页数
+     * @param size 大小
+     * @return org.springframework.data.domain.Page<com.tensquare.base.pojo.Label>
+     */
+    Page<Label> findSearch(Map searchMap, int page, int size);
 }
