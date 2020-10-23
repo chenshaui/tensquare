@@ -1,6 +1,7 @@
-package com.tensquare.qa.pojo;
+package com.tensquare.gather.pojo;
 
 import java.io.Serializable;
+import java.util.Date;
 import lombok.Data;
 import lombok.ToString;
 import org.hibernate.annotations.Proxy;
@@ -10,26 +11,30 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Pl
+ * Usergath
  * @author chenshuai
  **/
 @Data
 @ToString
 @Entity
 @Proxy(lazy = false)
-@Table(name = "tb_pl")
-public class Pl implements Serializable {
+@Table(name = "tb_usergath")
+public class Usergath implements Serializable {
     /**
-     * 问题ID
+     * 用户ID
      */
     @Id
-    private String problemid;
+    private String userid;
 
     /**
-     * 标签ID
+     * 活动ID
      */
-    @Id
-    private String labelid;
+    private String gathid;
+
+    /**
+     * 点击时间
+     */
+    private Date exetime;
 
     private static final long serialVersionUID = 1L;
 }

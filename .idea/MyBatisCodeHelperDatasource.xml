@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generatedClassPathList">
+          <list>
+            <option value="E:\idea\workspace\tensquare\tensquare_article\src\main\java\com\tensquare\article\pojo" />
+            <option value="E:\idea\workspace\tensquare\tensquare_gathering\src\main\java\com\tensquare\gather\pojo" />
+          </list>
+        </option>
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

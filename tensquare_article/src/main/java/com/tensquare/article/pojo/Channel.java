@@ -1,4 +1,4 @@
-package com.tensquare.qa.pojo;
+package com.tensquare.article.pojo;
 
 import java.io.Serializable;
 import lombok.Data;
@@ -10,26 +10,30 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Pl
+ * Channel
  * @author chenshuai
  **/
 @Data
 @ToString
 @Entity
 @Proxy(lazy = false)
-@Table(name = "tb_pl")
-public class Pl implements Serializable {
+@Table(name = "tb_channel")
+public class Channel implements Serializable {
     /**
-     * 问题ID
+     * ID
      */
     @Id
-    private String problemid;
+    private String id;
 
     /**
-     * 标签ID
+     * 频道名称
      */
-    @Id
-    private String labelid;
+    private String name;
+
+    /**
+     * 状态
+     */
+    private String state;
 
     private static final long serialVersionUID = 1L;
 }
