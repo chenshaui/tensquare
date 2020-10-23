@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="tensquare_recruit@47.95.198.82" uuid="4663a694-d745-4655-bdbc-9788c417f7b0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.95.198.82:3306/tensquare_recruit</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="tensquare_qa" uuid="ae83d6b9-483a-4488-b6a6-75dc89632c4c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.95.198.82:3306/tensquare_qa</jdbc-url>
+    </data-source>
+  </component>
+</project>
