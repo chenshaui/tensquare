@@ -13,5 +13,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://47.95.198.82:3306/tensquare_gathering</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="tensquare_user" uuid="40c56a10-0dea-430d-a148-766209d06fab">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.95.198.82:3306/tensquare_user</jdbc-url>
+    </data-source>
   </component>
 </project>
