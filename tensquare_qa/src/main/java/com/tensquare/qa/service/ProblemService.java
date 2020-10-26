@@ -53,4 +53,8 @@ public class ProblemService {
         PageRequest pageRequest = PageRequest.of(page - 1, size);
         return problemDao.findWaitListByLabelId(lableId,pageRequest);
     }
+
+    public Problem add(Problem problem) {
+        return problemDao.save(problem);
+    }
 }

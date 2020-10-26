@@ -70,13 +70,20 @@ public class UserService {
             throw new RuntimeException("验证码输入不正确");
         }
         user.setId(idWorker.nextId()+"" );
-        user.setFollowcount(0);//关注数
-        user.setFanscount(0);//粉丝数
-        user.setOnline(0L);//在线时长
-        user.setRegdate(new Date());//注册日期
-        user.setUpdatedate(new Date());//更新日期
-        user.setLastdate(new Date());//最后登陆日期
-        String newpassword = encoder.encode(user.getPassword());//加密后的 密码
+        //关注数
+        user.setFollowcount(0);
+        //粉丝数
+        user.setFanscount(0);
+        //在线时长
+        user.setOnline(0L);
+        //注册日期
+        user.setRegdate(new Date());
+        //更新日期
+        user.setUpdatedate(new Date());
+        //最后登陆日期
+        user.setLastdate(new Date());
+        //加密后的 密码
+        String newpassword = encoder.encode(user.getPassword());
         user.setPassword(newpassword);
         userDao.save(user);
     }
@@ -88,5 +95,9 @@ public class UserService {
         }else{
             return null;
         }
+    }
+
+    public void deleteById(String id) {
+        userDao.deleteById(id);
     }
 }

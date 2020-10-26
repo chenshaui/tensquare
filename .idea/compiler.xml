@@ -19,6 +19,7 @@
       <module name="tensquare_article" options="-parameters" />
       <module name="tensquare_base" options="-parameters" />
       <module name="tensquare_common" options="-parameters" />
+      <module name="tensquare_eureka" options="-parameters" />
       <module name="tensquare_gathering" options="-parameters" />
       <module name="tensquare_qa" options="-parameters" />
       <module name="tensquare_recruit" options="-parameters" />

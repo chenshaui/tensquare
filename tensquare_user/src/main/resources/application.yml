@@ -18,3 +18,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+jwt:
+  config:
+    key: chenshuai
+    ttl: 360000
